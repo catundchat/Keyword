@@ -11,5 +11,7 @@
 + 根据需求修改jieba.analyse.extract_tags函数中的参数：topK 为返回几个 TF/IDF 权重最大的关键词，默认值为 20；withWeight 为是否一并返回关键词权重值，默认值为 False；allowPOS 仅包括指定词性的词，默认值为空，即不筛选
 + 更改text的内容后运行即可
 
-## 3.代码
+## 3.代码及示例
 [keyword.ipynb](keyword.ipynb)
+
+![example_keyword.JPG](example_keyword.JPG)
